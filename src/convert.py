@@ -1,6 +1,8 @@
 import toascii
 
-badApple = toascii.VideoConverter("bad-apple.mp4", .75, 1, "high")
+SCALE =  .75;
+
+badApple = toascii.VideoConverter("bad-apple.mp4", SCALE, 1, "high")
 
 print('converting')
 badApple.convert()
